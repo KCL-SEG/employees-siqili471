@@ -82,7 +82,7 @@ class EmployeeCB(EmployeeC, Employee):
         return self.hours * self.hour_sal + self.bonus
 
     def __str__(self):
-        return f"{self.name} works on a contract of {self.hours} hours at {self.hour_sal}/hours and receives a bonus " \
+        return f"{self.name} works on a contract of {self.hours} hours at {self.hour_sal}/hour and receives a bonus " \
                f"commission of {self.bonus}.  Their total pay is {self.get_pay()}."
 
 
